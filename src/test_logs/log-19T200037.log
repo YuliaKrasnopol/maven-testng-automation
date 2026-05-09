@@ -1,0 +1,56 @@
+20:00:39.394 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  /Users/yuliakrasnopolskaya/Library/Caches/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+20:00:57.835 [main] INFO  com.demoqa.tests.TestBase -- Start test: LoginPositiveTest
+20:00:58.128 [main] INFO  com.demoqa.utils.MyListener -- the locator will findBy.cssSelector: .card:nth-child(6)
+20:00:58.128 [main] INFO  com.demoqa.utils.MyListener -- ******
+20:00:58.470 [main] INFO  com.demoqa.utils.MyListener -- the locator is By.cssSelector: .card:nth-child(6)
+20:00:58.470 [main] INFO  com.demoqa.utils.MyListener -- *******
+20:00:58.767 [main] INFO  com.demoqa.utils.MyListener -- the locator will findBy.xpath: //span[.='Login']
+20:00:58.770 [main] INFO  com.demoqa.utils.MyListener -- ******
+20:00:58.957 [main] INFO  com.demoqa.utils.MyListener -- the locator is By.xpath: //span[.='Login']
+20:00:58.957 [main] INFO  com.demoqa.utils.MyListener -- *******
+20:01:03.507 [main] INFO  com.demoqa.utils.MyListener -- the locator will findBy.id: userName
+20:01:03.508 [main] INFO  com.demoqa.utils.MyListener -- ******
+20:01:03.551 [main] INFO  com.demoqa.utils.MyListener -- the locator is By.id: userName
+20:01:03.552 [main] INFO  com.demoqa.utils.MyListener -- *******
+20:01:03.832 [main] INFO  com.demoqa.utils.MyListener -- the locator will findBy.id: userName
+20:01:03.832 [main] INFO  com.demoqa.utils.MyListener -- ******
+20:01:03.923 [main] INFO  com.demoqa.utils.MyListener -- the locator is By.id: userName
+20:01:03.924 [main] INFO  com.demoqa.utils.MyListener -- *******
+20:01:04.022 [main] INFO  com.demoqa.utils.MyListener -- the locator will findBy.id: userName
+20:01:04.022 [main] INFO  com.demoqa.utils.MyListener -- ******
+20:01:04.090 [main] INFO  com.demoqa.utils.MyListener -- the locator is By.id: userName
+20:01:04.091 [main] INFO  com.demoqa.utils.MyListener -- *******
+20:01:04.604 [main] INFO  com.demoqa.utils.MyListener -- the locator will findBy.id: password
+20:01:04.604 [main] INFO  com.demoqa.utils.MyListener -- ******
+20:01:04.651 [main] INFO  com.demoqa.utils.MyListener -- the locator is By.id: password
+20:01:04.652 [main] INFO  com.demoqa.utils.MyListener -- *******
+20:01:05.225 [main] INFO  com.demoqa.utils.MyListener -- the locator will findBy.id: password
+20:01:05.225 [main] INFO  com.demoqa.utils.MyListener -- ******
+20:01:05.290 [main] INFO  com.demoqa.utils.MyListener -- the locator is By.id: password
+20:01:05.291 [main] INFO  com.demoqa.utils.MyListener -- *******
+20:01:05.341 [main] INFO  com.demoqa.utils.MyListener -- the locator will findBy.id: password
+20:01:05.342 [main] INFO  com.demoqa.utils.MyListener -- ******
+20:01:05.382 [main] INFO  com.demoqa.utils.MyListener -- the locator is By.id: password
+20:01:05.382 [main] INFO  com.demoqa.utils.MyListener -- *******
+20:01:05.669 [main] INFO  com.demoqa.utils.MyListener -- the locator will findBy.id: #login
+20:01:05.669 [main] INFO  com.demoqa.utils.MyListener -- ******
+20:01:15.736 [main] INFO  com.demoqa.utils.MyListener -- the test has a problem
+20:01:15.736 [main] INFO  com.demoqa.utils.MyListener -- *****
+20:01:15.736 [main] INFO  com.demoqa.utils.MyListener -- method--> public abstract org.openqa.selenium.WebElement org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)
+20:01:15.737 [main] INFO  com.demoqa.utils.MyListener -- *****
+20:01:15.740 [main] INFO  com.demoqa.utils.MyListener -- Target Exception--> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\#login"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.5', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b641947109244eaa832168aabc565562, findElement {value=#login, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/y8/55jsq_691jl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58113}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:58113/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b641947109244eaa832168aabc565562
+20:01:15.740 [main] INFO  com.demoqa.utils.MyListener -- ********
+20:01:15.740 [main] INFO  com.demoqa.utils.MyListener -- Object target --->ChromeDriver: chrome on mac (b641947109244eaa832168aabc565562)
+20:01:15.740 [main] INFO  com.demoqa.utils.MyListener -- ********
+20:01:17.570 [main] ERROR com.demoqa.tests.TestBase -- Test is failed LoginTests.LoginPositiveTest()[pri:0, instance:com.demoqa.tests.LoginTests@4722ef0c]
+20:01:17.570 [main] INFO  com.demoqa.tests.TestBase -- *****************

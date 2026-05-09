@@ -1,0 +1,34 @@
+19:13:51.072 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  /Users/yuliakrasnopolskaya/Library/Caches/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+19:14:01.284 [main] INFO  com.demoqa.tests.TestBase -- Start test: LoginPositiveTest
+19:14:01.335 [main] INFO  com.demoqa.utils.MyListener -- the locator will findBy.cssSelector: .card:nth-child(6)
+19:14:01.336 [main] INFO  com.demoqa.utils.MyListener -- ******
+19:14:01.580 [main] INFO  com.demoqa.utils.MyListener -- the locator is By.cssSelector: .card:nth-child(6)
+19:14:01.580 [main] INFO  com.demoqa.utils.MyListener -- *******
+19:14:01.755 [main] INFO  com.demoqa.utils.MyListener -- the locator will findBy.xpath: //span[.='Login']
+19:14:01.756 [main] INFO  com.demoqa.utils.MyListener -- ******
+19:14:01.903 [main] INFO  com.demoqa.utils.MyListener -- the locator is By.xpath: //span[.='Login']
+19:14:01.904 [main] INFO  com.demoqa.utils.MyListener -- *******
+19:14:02.023 [main] INFO  com.demoqa.utils.MyListener -- the locator will findBy.id: userName
+19:14:02.024 [main] INFO  com.demoqa.utils.MyListener -- ******
+19:14:02.062 [main] INFO  com.demoqa.utils.MyListener -- the locator is By.id: userName
+19:14:02.062 [main] INFO  com.demoqa.utils.MyListener -- *******
+19:14:04.822 [main] INFO  com.demoqa.utils.MyListener -- the test has a problem
+19:14:04.822 [main] INFO  com.demoqa.utils.MyListener -- *****
+19:14:04.822 [main] INFO  com.demoqa.utils.MyListener -- method--> public abstract void org.openqa.selenium.WebElement.click()
+19:14:04.823 [main] INFO  com.demoqa.utils.MyListener -- *****
+19:14:04.842 [main] INFO  com.demoqa.utils.MyListener -- Target Exception--> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input required="" autocomplete="off" placeholder="UserName" type="text" id="userName" class="mr-sm-2 form-control" value=""> is not clickable at point (808, 558). Other element would receive the click: <div>...</div>
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.5', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2d091becf7efdadc1b29a4f47c436802, clickElement {id=f.3291FD53424FF0A0BAFA0D0BB03CB0C7.d.ABCC3BC99EF111BF249063F07E92FB17.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/y8/55jsq_691jl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62983}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62983/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (2d091becf7efdadc1b29a4f47c436802)] -> id: userName]
+Session ID: 2d091becf7efdadc1b29a4f47c436802
+19:14:04.842 [main] INFO  com.demoqa.utils.MyListener -- ********
+19:14:04.843 [main] INFO  com.demoqa.utils.MyListener -- Object target --->[[ChromeDriver: chrome on mac (2d091becf7efdadc1b29a4f47c436802)] -> id: userName]
+19:14:04.843 [main] INFO  com.demoqa.utils.MyListener -- ********
+19:14:04.880 [main] ERROR com.demoqa.tests.TestBase -- Test is failed LoginTests.LoginPositiveTest()[pri:0, instance:com.demoqa.tests.LoginTests@30f842ca]
+19:14:04.881 [main] INFO  com.demoqa.tests.TestBase -- *****************

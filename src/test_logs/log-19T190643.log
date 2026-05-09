@@ -1,0 +1,40 @@
+19:06:44.834 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  /Users/yuliakrasnopolskaya/Library/Caches/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+19:07:01.362 [main] INFO  com.demoqa.tests.TestBase -- Start test: iFrameTest2
+19:07:01.661 [main] INFO  com.demoqa.utils.MyListener -- the locator will findBy.cssSelector: .card:nth-child(3)
+19:07:01.662 [main] INFO  com.demoqa.utils.MyListener -- ******
+19:07:01.773 [main] INFO  com.demoqa.utils.MyListener -- the locator is By.cssSelector: .card:nth-child(3)
+19:07:01.773 [main] INFO  com.demoqa.utils.MyListener -- *******
+19:07:02.187 [main] INFO  com.demoqa.utils.MyListener -- the locator will findBy.xpath: //span[.='Frames']
+19:07:02.187 [main] INFO  com.demoqa.utils.MyListener -- ******
+19:07:02.253 [main] INFO  com.demoqa.utils.MyListener -- the locator is By.xpath: //span[.='Frames']
+19:07:02.254 [main] INFO  com.demoqa.utils.MyListener -- *******
+19:07:02.435 [main] INFO  com.demoqa.utils.MyListener -- the locator will findBy.id: frame1
+19:07:02.435 [main] INFO  com.demoqa.utils.MyListener -- ******
+19:07:02.515 [main] INFO  com.demoqa.utils.MyListener -- the locator is By.id: frame1
+19:07:02.516 [main] INFO  com.demoqa.utils.MyListener -- *******
+19:07:03.319 [main] INFO  com.demoqa.utils.MyListener -- the locator will findBy.id: sampleHeading
+19:07:03.319 [main] INFO  com.demoqa.utils.MyListener -- ******
+19:07:05.135 [main] INFO  com.demoqa.utils.MyListener -- the locator is By.id: sampleHeading
+19:07:05.135 [main] INFO  com.demoqa.utils.MyListener -- *******
+19:07:05.261 [main] INFO  com.demoqa.utils.MyListener -- the locator will findBy.tagName: page1
+19:07:05.261 [main] INFO  com.demoqa.utils.MyListener -- ******
+19:07:15.325 [main] INFO  com.demoqa.utils.MyListener -- the test has a problem
+19:07:15.326 [main] INFO  com.demoqa.utils.MyListener -- *****
+19:07:15.327 [main] INFO  com.demoqa.utils.MyListener -- method--> public abstract org.openqa.selenium.WebElement org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)
+19:07:15.327 [main] INFO  com.demoqa.utils.MyListener -- *****
+19:07:15.329 [main] INFO  com.demoqa.utils.MyListener -- Target Exception--> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"tag name","selector":"page1"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.5', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dbbdf4d77563052f771909c65bed16f6, findElement {value=page1, using=tag name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/y8/55jsq_691jl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60952}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:60952/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dbbdf4d77563052f771909c65bed16f6
+19:07:15.329 [main] INFO  com.demoqa.utils.MyListener -- ********
+19:07:15.329 [main] INFO  com.demoqa.utils.MyListener -- Object target --->ChromeDriver: chrome on mac (dbbdf4d77563052f771909c65bed16f6)
+19:07:15.330 [main] INFO  com.demoqa.utils.MyListener -- ********
+19:07:15.348 [main] ERROR com.demoqa.tests.TestBase -- Test is failed iFrameTests.iFrameTest2()[pri:0, instance:com.demoqa.tests.iFrameTests@4b8d604b]
+19:07:15.349 [main] INFO  com.demoqa.tests.TestBase -- *****************

@@ -1,0 +1,28 @@
+19:10:53.740 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  /Users/yuliakrasnopolskaya/Library/Caches/JetBrains/IdeaIC2025.1/temp-testng-customsuite.xml
+
+19:11:05.041 [main] INFO  com.demoqa.tests.TestBase -- Start test: LoginPositiveTest
+19:11:05.072 [main] INFO  com.demoqa.utils.MyListener -- the locator will findBy.cssSelector: .card:nth-child(6)
+19:11:05.072 [main] INFO  com.demoqa.utils.MyListener -- ******
+19:11:05.570 [main] INFO  com.demoqa.utils.MyListener -- the locator is By.cssSelector: .card:nth-child(6)
+19:11:05.577 [main] INFO  com.demoqa.utils.MyListener -- *******
+19:11:05.932 [main] INFO  com.demoqa.utils.MyListener -- the locator will findBy.xpath: //span[.='Login']
+19:11:05.933 [main] INFO  com.demoqa.utils.MyListener -- ******
+19:11:06.028 [main] INFO  com.demoqa.utils.MyListener -- the locator is By.xpath: //span[.='Login']
+19:11:06.030 [main] INFO  com.demoqa.utils.MyListener -- *******
+19:11:07.244 [main] INFO  com.demoqa.utils.MyListener -- the test has a problem
+19:11:07.244 [main] INFO  com.demoqa.utils.MyListener -- *****
+19:11:07.244 [main] INFO  com.demoqa.utils.MyListener -- method--> public abstract void org.openqa.selenium.WebElement.click()
+19:11:07.244 [main] INFO  com.demoqa.utils.MyListener -- *****
+19:11:07.246 [main] INFO  com.demoqa.utils.MyListener -- Target Exception--> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="text">...</span> is not clickable at point (103, 555). Other element would receive the click: <div id="fixedban" style="width:100%;margin:auto;text-align:center;float:none;overflow:hidden;display:scroll;position:fixed;bottom:0;z-index:9999999">...</div>
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.7.5', java.version: '17.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d9911a6f23e164b4c8475287422e6d4d, clickElement {id=f.E5112E7250E2DC44B9B38C5BD0B4CF58.d.C1F1C7F359BA4E758656D360943A154C.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: /var/folders/y8/55jsq_691jl...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62161}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:62161/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (d9911a6f23e164b4c8475287422e6d4d)] -> xpath: //span[.='Login']]
+Session ID: d9911a6f23e164b4c8475287422e6d4d
+19:11:07.246 [main] INFO  com.demoqa.utils.MyListener -- ********
+19:11:07.246 [main] INFO  com.demoqa.utils.MyListener -- Object target --->[[ChromeDriver: chrome on mac (d9911a6f23e164b4c8475287422e6d4d)] -> xpath: //span[.='Login']]
+19:11:07.247 [main] INFO  com.demoqa.utils.MyListener -- ********
