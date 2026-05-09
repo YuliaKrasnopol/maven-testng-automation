@@ -1,4 +1,32 @@
 package com.demoqa.tests;
 
-public class AlertsTests {
+import com.demoqa.alertsFrameWindows.AlertsPage;
+import com.demoqa.pages.HomePage;
+import com.demoqa.pages.SidePanel;
+import org.checkerframework.checker.units.qual.A;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+public class AlertsTests extends TestBase{
+
+    @BeforeMethod
+    public void precondition(){
+        new HomePage(driver).getAlertsFrameWindows();
+        new SidePanel(driver).selectAlerts();
+    }
+
+    @Test
+    public void alertWaitTest(){
+        new AlertsPage(driver).alertWithTimer();
+
+    }
+    @Test
+    public void alertWithSelectTest(){
+        new AlertsPage(driver).selectResult("Cancel").verifyResult("Cancel");
+
+    }
+    @Test
+    public void sentMessageToAlertTest(){
+        new AlertsPage(driver).sendMessageToAlert("Hello").verifyMessage("Hello");
+    }
 }
