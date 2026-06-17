@@ -6,7 +6,7 @@ website, built as part of an intensive QA automation retraining program
 
 ## Stack
 
-- Java 11
+- Java 17
 - Selenium WebDriver
 - TestNG
 - Maven
